@@ -3,6 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let address = "ul. Porzeczkowa"
+  let numberOfAge: string;
+  let something: number | string;
+  address = "5";
+  numberOfAge = "13"
+  something = 44
+
   return (
     <div className="App">
       <header className="App-header">
