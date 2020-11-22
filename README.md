@@ -44,3 +44,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Problem with starting the project
+
+## How to fix
+
+Use the solution from https://dev.to/ebonynon/react-17-jsx-react-scripts-with-typescript-30ap if you the `yarn start` command doesn't work.
