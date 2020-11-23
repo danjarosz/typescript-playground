@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Example from "./classes/Example";
+
 
 function App() {
   //types
@@ -18,13 +20,18 @@ function App() {
   const add = (x: number, y: number): number => x + y;
   console.log(add(x, y));
 
+  //classes
+  const ex = new Example(123, "Daniel", "Jarosz");
+  console.log(ex, ex.id, ex.surname);
+  ex.showId();
+
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          TypeScript learning
         </p>
         <a
           className="App-link"
