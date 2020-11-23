@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Example from "./classes/Example";
+import Example from "./classes/ClassExample";
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
   const ex = new Example(123, "Daniel", "Jarosz");
   console.log(ex, ex.id, ex.surname);
   ex.showId();
+  console.log("Generic: ", ex.generic)
 
 
   return (
