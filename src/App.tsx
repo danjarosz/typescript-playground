@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Example from "./classes/ClassExample";
+import Example from "./examples/ClassExample";
 
 
 function App() {
